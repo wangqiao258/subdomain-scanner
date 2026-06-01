@@ -58,8 +58,7 @@ cd subdomain-scanner
 # 安装依赖
 pip install -r requirements.txt
 
-# 下载大字典（可选，内置字典约700条）
-python data/download_dict.py
+
 ```
 
 ## 使用
@@ -103,7 +102,7 @@ subdomain-scanner/
 ├── requirements.txt
 ├── data/
 │   ├── subdomains.txt       # 内置字典 (~700条)
-│   └── download_dict.py     # 下载 SecLists 5w 字典
+│   └── subdomains-top1million-110000.txt     # 内置字典 (~110000条)
 ├── scanner/
 │   ├── engine.py            # 扫描引擎
 │   ├── dns_brute.py         # DNS 字典枚举
