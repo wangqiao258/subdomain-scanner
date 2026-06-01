@@ -52,7 +52,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourname/subdomain-scanner.git
+git clone https://github.com/wangqiao258/subdomain-scanner.git
 cd subdomain-scanner
 
 # 安装依赖
